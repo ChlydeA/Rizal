@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rizal Code Cards</title>
+</head>
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1 0 25%;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 0 100%;
+  }
+}
+</style>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Actor</h2>
+      <p>Rizal acted as a character in one of Juan Luna’s paintings and acted in school dramas.</p>
+    </div>
+    <div class="card">
+      <h2>Agriculturist</h2>
+      <p>Rizal had farms in Dapitan, Zamboanga del Norte (1892-1896) where he planted lanzones, coconuts and other fruit-bearing trees.</p>
+    </div>
+    <div class="card">
+      <h2>Animal Lover</h2>
+      <p>Rizal loved animals including birds, fish, insects, and other specimens of animal life.</p>
+    </div>
+    <div class="card">
+      <h2>Anthropologist</h2>
+      <p>Rizal made researches on the physical and social make up of man.</p>
+    </div>
+  </div>
+</body>
+</html>
